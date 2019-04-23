@@ -5,7 +5,19 @@ body {
   overflow: hidden;
 }
 
-body ul {
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section ul {
   list-style: none;
   text-align: center;
   font-size: 25px;
@@ -13,9 +25,20 @@ body ul {
   font-family: 'Press Start 2P', cursive;
 }
 
-body ul li {
+body section ul li {
   padding: 10px;
   cursor: pointer;
+}
+
+body section div {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-family: 'Cute Font', cursive;
+  margin-left: 100px;
+  min-width: 300px;
+  min-height: 300px;
+  padding-top: 50px;
 }
 
 .spinner {

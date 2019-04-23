@@ -4,16 +4,35 @@ body {
   background-position: center;
   overflow: hidden;
 
-  ul {
-    list-style: none;
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    font-family: 'Press Start 2P', cursive;
 
-    li {
-      padding: 10px;
-      cursor: pointer;
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    ul {
+      list-style: none;
+      text-align: center;
+      font-size: 25px;
+      color: white;
+      font-family: 'Press Start 2P', cursive;
+
+      li {
+        padding: 10px;
+        cursor: pointer;
+      }
+    }
+
+    div {
+      text-align: center;
+      color: white;
+      font-size: 45px;
+      font-family: 'Cute Font', cursive;
+      margin-left: 100px;
+      min-width: 300px;
+      min-height: 300px;
+      padding-top: 50px;
     }
   }
 }
